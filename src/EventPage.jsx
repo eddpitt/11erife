@@ -16,6 +16,7 @@ import {
 } from '@mui/icons-material';
 import LeagueTable from "./LeagueTable";
 import UselessButton from "./UselessButton";
+import "./EventPage.css"
 
 const icons = {
     "date": CalendarToday,
@@ -35,7 +36,7 @@ const icons = {
 const BasicImage = ({height, image, mb, alt}) => {
     return <Box sx={{ width: '100%', margin: '0 auto', height: height, overflow: 'hidden', mb:mb}}>
         <img
-            src={process.env.PUBLIC_URL + "/" + image}
+            src={"./" + image}
             alt={alt}
             style={{
                 width: '100%',
