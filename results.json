@@ -2,7 +2,7 @@
      "games": ["Fancy Dress", "Padel", "Quiz"],
      "people": {
           "Crease":  [0, 0, 0],
-          "Samu":    [0, 0, 1],
+          "Samu":    [0, 0, 0],
           "EP":      [0, 0],
           "Foz":     [0, 0],
           "Big C":   [0, 0],
