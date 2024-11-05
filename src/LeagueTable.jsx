@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {
     Typography,
     Table,
@@ -10,14 +10,27 @@ import {
     Paper
 } from '@mui/material';
 
+export async function readFile(filePath) {
+    const response = await fetch(filePath);
+    if (!response.ok) {
+        throw new Error(`Failed to fetch file: ${filePath}`);
+    }
+    return response.text();
+}
+
 const LeagueTable = () => {
-    const teams = [
-        { name: "Manchester City", wins: 7, draws: 2, losses: 0, GF: 20, GA: 9 },
-        { name: "Liverpool", wins: 7, draws: 1, losses: 1, GF: 17, GA: 5 },
-        { name: "Arsenal", wins: 5, draws: 3, losses: 1, GF: 17, GA: 10 },
-        { name: "Aston Villa", wins: 5, draws: 3, losses: 1, GF: 16, GA: 11 },
-        { name: "Chelsea",  wins: 5, draws: 2, losses: 2, GF: 19, GA: 11 }
-    ];
+    const [teams, setTeams] = useState([]);
+
+
+    useEffect(() => {
+        const fetchFiles = async () => {
+            setTeams(JSON.parse(await readFile('./results.json')));
+        };
+
+        fetchFiles();
+    }, []);
+
+
 
     return (
         <TableContainer component={Paper} sx={{ maxWidth: 800, margin: 'auto', mt: 4 }}>
