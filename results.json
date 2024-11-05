@@ -1,7 +1,15 @@
 [
-     { "name": "Manchester City", "wins": 7, "draws": 2, "losses": 0, "GF": 20, "GA": 9 },
-     { "name": "Liverpool", "wins": 7, "draws": 1, "losses": 1, "GF": 17, "GA": 5 },
-     { "name": "Arsenal", "wins": 5, "draws": 3, "losses": 1, "GF": 17, "GA": 10 },
-     { "name": "Aston Villa", "wins": 5, "draws": 3, "losses": 1, "GF": 16, "GA": 11 },
-     { "name": "Chelsea",  "wins": 5, "draws": 2, "losses": 2, "GF": 19, "GA": 11 }
+     {
+          "games": ["Fancy Dress", "Padel"],
+          "people": {
+               "Crease": [1, 2],
+               "Samu": [4, 2],
+               "EP": [3, 1],
+               "Foz": [0,2],
+               "Big C": [,1],
+               "Estuart": [0,0],
+               "Jarri": [,5],
+               "Beeso": [5,]
+          }
+     }
  ]
