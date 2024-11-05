@@ -1,15 +1,13 @@
-[
-     {
-          "games": ["Fancy Dress", "Padel"],
-          "people": {
-               "Crease": [1, 2],
-               "Samu": [4, 2],
-               "EP": [3, 1],
-               "Foz": [0,2],
-               "Big C": [0,1],
-               "Estuart": [0,0],
-               "Jarri": [0,5],
-               "Beeso": [5,0]
-          }
+{
+     "games": ["Fancy Dress", "Padel"],
+     "people": {
+          "Crease": [1, 2],
+          "Samu": [4, 2],
+          "EP": [3, 1],
+          "Foz": [0,2],
+          "Big C": [0,1],
+          "Estuart": [0,0],
+          "Jarri": [0,5],
+          "Beeso": [5,0]
      }
- ]
+}
