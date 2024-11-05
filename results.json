@@ -1,7 +1,7 @@
 {
      "games": ["Fancy Dress", "Padel"],
      "people": {
-          "Crease":  [0, 0],
+          "Crease":  [1, 2],
           "Samu":    [0, 0],
           "EP":      [0, 0],
           "Foz":     [0, 0],
