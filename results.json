@@ -1,13 +1,13 @@
 {
-     "games": ["Huak tuah"],
+     "games": ["Huak tuah", "Urban Petanque"],
      "people": {
-          "Crease": [1],
-          "Samu": [3],
-          "EP": [4],
-          "Foz": [8],
-          "Big C": [7],
-          "Estuart": [6],
-          "Jarri": [5],
-          "Beeso": [2]
+          "Crease": [1, 7],
+          "Samu": [3, 4],
+          "EP": [4, 5],
+          "Foz": [8, 2],
+          "Big C": [7, 8],
+          "Estuart": [6, 3],
+          "Jarri": [5, 6],
+          "Beeso": [2, 1]
      }
 }
