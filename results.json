@@ -1,13 +1,13 @@
 {
-     "games": ["Fancy Dress", "Padel"],
+     "games": ["Huak tuah"],
      "people": {
-          "Crease": [1, 2],
-          "Samu": [4, 2],
-          "EP": [3, 1],
-          "Foz": [0,2],
-          "Big C": [0,1],
-          "Estuart": [0,0],
-          "Jarri": [0,5],
-          "Beeso": [5,0]
+          "Crease": [1],
+          "Samu": [3],
+          "EP": [4],
+          "Foz": [8],
+          "Big C": [7],
+          "Estuart": [6],
+          "Jarri": [5],
+          "Beeso": [2]
      }
 }
