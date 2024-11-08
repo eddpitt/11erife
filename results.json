@@ -1,13 +1,13 @@
 {
-     "games": ["Huak tuah", "Urban Petanque", "Quiz"],
+     "games": ["Huak tuah", "Urban Petanque", "Quiz", "Fancy D"],
      "people": {
-          "Crease": [1, 7, 7],
-          "Samu": [3, 4, 1],
-          "EP": [4, 5, 5],
-          "Foz": [8, 2, 8],
-          "Big C": [7, 8, 6],
-          "Estuart": [6, 3, 3],
-          "Jarri": [5, 6, 2],
-          "Beeso": [2, 1, 4]
+          "Crease": [1, 7, 7, 1],
+          "Samu": [3, 4, 1, 7.5],
+          "EP": [4, 5, 5, 7.5],
+          "Foz": [8, 2, 8, 3],
+          "Big C": [7, 8, 6, 5.5],
+          "Estuart": [6, 3, 3, 2],
+          "Jarri": [5, 6, 2, 4],
+          "Beeso": [2, 1, 4, 5.5]
      }
 }
